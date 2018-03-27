@@ -19,5 +19,7 @@ vcode = getpass.getpass()
 !mkdir -p drive
 !google-drive-ocamlfuse drive
 
+!pip install -q keras #instalando o keras
+
 
 !python3 drive/DeepLearning/meus_scripts.py ## executamos scripts assim
